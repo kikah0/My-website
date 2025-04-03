@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>The Leafly Kitchen</title>
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+            background-color: #d4d1bc;
+            font-family: 'Arial', sans-serif;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            text-align: center;
+        }
+        .container {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            width: 80%;
+        }
+        .logo {
+            flex: 1;
+            text-align: left;
+        }
+        .logo h1 {
+            font-size: 32px;
+            margin: 0;
+        }
+        .logo p {
+            font-size: 12px;
+            letter-spacing: 1px;
+        }
+        .menu {
+            flex: 1;
+            background: white;
+            padding: 20px;
+            border-radius: 8px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        }
+        .menu a {
+            display: block;
+            padding: 10px;
+            margin: 10px 0;
+            border: 1px solid black;
+            text-decoration: none;
+            color: black;
+            font-weight: bold;
+        }
+        .social-icons {
+            margin-top: 20px;
+        }
+        .social-icons a {
+            margin: 0 10px;
+            text-decoration: none;
+            color: black;
+            font-size: 20px;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="logo">
+            <h1>The Leafly Kitchen</h1>
+            <p>Comfort food made with plant-based ingredients and lots of love</p>
+        </div>
+        <div class="menu">
+            <a href="#">Menu</a>
+            <a href="#">Seasonal Dishes</a>
+            <a href="#">Inside the Cafe</a>
+            <a href="#">Delivery FAQ</a>
+            <a href="#">About Us</a>
+            <a href="#">Our Advocacy</a>
+            <div class="social-icons">
+                <a href="#">&#xf09a;</a>
+                <a href="#">&#xf16d;</a>
+                <a href="#">&#xf099;</a>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
